@@ -28,7 +28,7 @@
     	<form action="response.php" method="POST" class="form_pelanggan">
     		<label for="id_pelanggan">ID Pelanggan</label>
     		<div class="input-body">
-    			<input type="text" name="id_pelanggan" id="id_pelanggan" autofocus="">
+    			<input type="text" name="id_pelanggan" id="id_pelanggan" autofocus="" required="">
     		</div>
     		<div class="input-body" style="text-align: right;">
 	    		<input type="submit" name="kirim" id="kirim" value="Kirim">
