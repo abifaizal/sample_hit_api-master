@@ -37,7 +37,7 @@
     		<label for="">Nama Pelanggan</label> : <?php echo $data['subscriber_name']; ?>
     	</div>
     	<div class="">
-    		<label for="">Daya / Golongan</label> : <?php echo $data['power']; ?>
+    		<label for="">Daya / Golongan</label> : <?php echo $data['power']; ?> / <?php echo $data['subscriber_segmentation']; ?>
     	</div>
     	<div class="" style="text-align: right;">
     		<a href="./">
@@ -51,6 +51,13 @@
 			echo "Response Code (RC) -> " . $rc . "<br />";
 			echo "Description -> " . $data['desc'];
 			echo "</pre>";
+	?>
+		<div class="">
+  		<a href="./">
+  			<button type="button">Kembali</button>
+  		</a>
+  	</div>
+	<?php
 		}
 	?>
   </body>
